@@ -1,21 +1,17 @@
-SparkFun ADC Block for Edison C++ Library
+SparkFun 9DOF Block for Edison C++ Library
 ========================================
 
-SparkFun’s ADC Block for the Intel Edison allows you to add four channels of 
-I2C controlled ADC input to your Edison stack. These four channels can be 
-used as single-ended inputs, or in pairs as differential inputs. A ground 
-reference is provided for each channel.
-
-The maximum resolution of the converters is 12 bits, or 11 bits bipolar in 
-differential mode. Step sizes range from 125uV per count to 3mV per count.
+SparkFun’s 9DOF Block for the Intel Edison allows you to add an IMU to your
+Edison Stack that has three axes of sensing accelerometer, gyroscope, and
+magnetometer data.
 
 Repository Contents
 -------------------
 
-* **SparkFunADS1015.h** - Header file containing class, function, and
-constant definitions used by the ads1015 C++ library.
-* **SparkFunADS1015.cpp** - Class implementation for ads1015 class.
-* **SparkFun_ADC_Edison_Block_Example.cpp** - example code which will show you
+* **SFE_LSM9DS0.h** - Header file containing class, function, and
+constant definitions used by the LSM9DS0 C++ library.
+* **SFE_LSM9DS0.cpp** - Class implementation for LSM9DS0 class.
+* **SparkFun_9DOF_Edison_Block_Example.cpp** - example code which will show you
 how to access all of the functions in the library.
 
 Documentation
@@ -30,14 +26,14 @@ install them.
 This library uses Intel's [mraa](https://github.com/intel-iot-devkit/mraa) 
 library to access hardware resources. This tutorial will help you get started
 using mraa to write code in C++. **This is not an Arduino library.**
-* **[ADC Block Hookup Guide](https://learn.sparkfun.com/tutorials/sparkfun-blocks-for-intel-edison---adc)** - 
+* **[9DOF Block Hookup Guide](https://learn.sparkfun.com/tutorials/sparkfun-blocks-for-intel-edison---9-degrees-of-freedom-block-)** - 
 Hookup guide specific to this block, which includes information on the circuits
 used in the demo code.
 
 Products that use this Library 
 ---------------------------------
 
-* [ADC Block](https://www.sparkfun.com/products/13046)
+* [9DOF Block](https://www.sparkfun.com/products/13033)
 
 License Information
 -------------------
