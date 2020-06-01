@@ -35,7 +35,7 @@ int main()
   //  registers from the chip. If all is good, the return value here should be
   //  0x49d4. Here are the initial settings from this function:
   //  Gyro scale:        245 deg/sec max
-  //  Xl scale:          4g max
+  //  Xl scale:          2g max
   //  Mag scale:         2 Gauss max
   //  Gyro sample rate:  95Hz
   //  Xl sample rate:    100Hz
